@@ -1,4 +1,4 @@
-export type Sector = 'public' | 'pme_eti' | 'healthcare' | 'defense_legal';
+export type Sector = 'public' | 'prive';
 export type UserRange = '10-30' | '30-100' | '100+';
 export type DataSensitivity = 'conformes' | 'sensibles' | 'critiques';
 export type InterlocutorType = 'technical' | 'business';

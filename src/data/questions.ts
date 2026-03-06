@@ -26,10 +26,8 @@ export const questions: QuestionDef[] = [
     subtitle: "Type d'organisation du client",
     type: 'select',
     options: [
-      { value: 'public', label: 'Collectivite / Public', description: 'Mairie, metropole, region, departement', icon: 'Landmark' },
-      { value: 'pme_eti', label: 'PME / ETI', description: 'Entreprise privee de 10 a 5000 salaries', icon: 'Building2' },
-      { value: 'healthcare', label: 'Sante', description: 'Hopital, clinique, cabinet medical', icon: 'Heart' },
-      { value: 'defense_legal', label: 'Defense / Juridique', description: 'Defense, cabinet juridique, industrie sensible', icon: 'Shield' },
+      { value: 'public', label: 'Collectivite / Public', description: 'Mairie, metropole, region, departement, hopital public', icon: 'Landmark' },
+      { value: 'prive', label: 'Prive', description: 'PME, ETI, cabinet, clinique, industrie', icon: 'Building2' },
     ],
   },
   {

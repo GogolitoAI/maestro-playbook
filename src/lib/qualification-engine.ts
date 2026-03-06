@@ -29,7 +29,7 @@ export function recommendPack(answers: QualificationAnswers): PackLevel {
 
   if (dataSensitivity === 'critiques') return 'shield_notes';
   if (dataSensitivity === 'sensibles') return 'shield';
-  if (sector === 'public' || sector === 'healthcare') return 'notes';
+  if (sector === 'public') return 'notes';
   return 'base';
 }
 
